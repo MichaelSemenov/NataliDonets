@@ -974,7 +974,7 @@ width: 70%;
 
 
 .carousel{
-    height: 70vh;
+    height: 75vh;
     margin: 0;
     display: grid;
     grid-template-rows: 500px 100px;
