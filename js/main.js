@@ -80,7 +80,7 @@ const navMenu = document.getElementById('nav-menu'),
     sr.reveal(`.popular__card` , {interval: 200 })
     sr.reveal(`.photo_section `, {origin: 'bottom'})
     sr.reveal(`.map-container`)
-    sr.reveal(` .info-container`, {origin: 'right'})
+    // sr.reveal(` .info-container`, {origin: 'right'})
      
 
 
