@@ -972,13 +972,9 @@ width: 70%;
 
 /* CAROUSEL PHOTO INFORMATION */
 
-.photo_section h1{
-    text-align: center;
-    color: #eec357;
-}
 
 .carousel{
-    height: 100vh;
+    height: 70vh;
     margin: 0;
     display: grid;
     grid-template-rows: 500px 100px;
