@@ -80,17 +80,9 @@ const navMenu = document.getElementById('nav-menu'),
     sr.reveal(`.popular__card` , {interval: 200 })
     sr.reveal(`.photo_section `, {origin: 'bottom'})
     sr.reveal(`.map-container`)
-    // sr.reveal(` .info-container`, {origin: 'right'})
 
-    $(document).ready(function(){
-        $('.carousel').slick({
-           dots: true, // показывать точки для навигации
-           infinite: true, // зациклить карусель
-           speed: 300, // скорость прокрутки
-           slidesToShow: 1, // количество слайдов, которые показываются одновременно
-           slidesToScroll: 1 // количество слайдов, которые прокручиваются за раз
-        });
-     });
+
+     
      
 
 
