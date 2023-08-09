@@ -1084,3 +1084,44 @@ input:nth-of-type(5):checked ~ main#carousel{
     --position: 5;
 }
 
+
+/* GOOGLE CARD */
+.map-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .info-container {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .info-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info-container p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .map-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    
+    .info-container {
+      margin-top: 0;
+      margin-left: 20px;
+      text-align: left;
+    }
+  } 

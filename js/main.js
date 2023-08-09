@@ -79,6 +79,8 @@ const navMenu = document.getElementById('nav-menu'),
     sr.reveal(`.about__image, .join__data` , {origin: 'left' })
     sr.reveal(`.popular__card` , {interval: 200 })
     sr.reveal(`.photo_section `, {origin: 'bottom'})
+    sr.reveal(`.map-container`)
+    sr.reveal(` .info-container`, {origin: 'right'})
      
 
 
