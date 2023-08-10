@@ -1125,44 +1125,7 @@ input:nth-of-type(5):checked ~ main#carousel{
     }
   } 
 
-  /* THEMES */
-  .services{
-    display: flex;
-    justify-content: center;
-    padding: 100px;
-  }
 
-  .pics{
-    width: 80%;
-  }
-
-  .promo{
-    text-align: center;
-    width: 50%;
-    margin-right: 5%;
-  }
-
-   .card-pic:nth-child(1){
-    left: 15%;
-    top: 30%;
-   }
-
-      .card-pic:nth-child(2){
-    left: 30%;
-    top: 40%;
-   }
-
-      .card-pic:nth-child(3){
-    left: 20%;
-    top: 50%;
-   }
-
-   .card-pic:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-    z-index: 10;
-    cursor: pointer;
-   }
 
 
 
