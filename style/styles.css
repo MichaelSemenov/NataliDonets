@@ -1126,6 +1126,11 @@ input:nth-of-type(5):checked ~ main#carousel{
   } 
 
 
+  /* NEW TEACHE */
+  .new_teacher{
+    font-size: 16px;
+  }
+
 
 
 
